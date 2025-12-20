@@ -16,11 +16,11 @@ The dataset is loaded from a CSV file using Pandas. Irrelevant columns such as i
 2. Exploratory Text Analysis: 
 Basic linguistic features are computed from the raw text, including word count, average sentence length, and vocabulary diversity. These features help analyze structural difference between human-written and LLM-generated text. Their distriutions are visualized for insight. 
 
-<img src = "Answer Length Distribution (Words).png" width = "700">
+<img src = "Answer Length Distribution (Words).png" width = "500">
 
-<img src = "Average Sentence Length Distribution.png" width = "700">
+<img src = "Average Sentence Length Distribution.png" width = "500">
 
-<img src = "Vocabulary Diversity Distribution.png" width = "700">
+<img src = "Vocabulary Diversity Distribution.png" width = "500">
 
 3. Text Cleaning:
 Each text is normalised by converting to lowercase, removing digits, punctuation, and special characters. This reduces noise and ensures consistent input for feature extraction. 
@@ -31,12 +31,12 @@ Cleaned text is transformed into numerical features using TF-IDF with unigrams a
 5. Class Distribution Analysis:
 The class labels (human vs generated) are visualized to identify imblance in the dataset.
 
-<img src = "Class Distribution (Before Resampling).png" width = "700">
+<img src = "Class Distribution (Before Resampling).png" width = "500">
 
 6. Resampling:
 SMOTE combined with TOmek links is applied to balance the dataset by oversampling the minority class and cleaning overlapping samples, improving model robustness. 
 
-<img src = "Class Distribution (After Resampling).png" width = "700">
+<img src = "Class Distribution (After Resampling).png" width = "500">
 
 7. Train-Test Split:
 The balanced data is split into training and testing sets to allow fair evaluation. 
