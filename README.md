@@ -70,9 +70,9 @@ ROC curves for all models closely follow the top left corner, with an AUC score 
 
 <img src = "ROC-AUC Curve for Logistic Regression.png" width = "500">
 
-<img src = "ROC-AUC Curve for Decision Tree Classifier" width = "500">
+<img src = "ROC-AUC Curve for Decision Tree Classifier.png" width = "500">
 
-<img src = "ROC-AUC Curve for Random Forest Classifier" width = "500">
+<img src = "ROC-AUC Curve for Random Forest Classifier.png" width = "500">
 
 The consistently perfect results across confusion matrices, classification reports, and ROC-AUC scores indicate that all three models perform exceptionally well on the given dataset. 
 
