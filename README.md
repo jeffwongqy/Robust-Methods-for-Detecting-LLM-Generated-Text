@@ -3,7 +3,7 @@
 ## Aim: 
 To develop a robust system for acurrately detecting LLM-generated text by applying reliable machine learning techniques and maintaining a reproducible, automated development workflow usign Git and Jenkins. 
 
-
+<img src = "jenkins_pipeline.png" width = "500">
 
 ## Objectives:
 - Design and implement models capable of distinguishing human-written and LLM-generated text with high accuracy. 
@@ -74,30 +74,30 @@ Classification Report for Random Forest Classifier:
 
 Confusion matrices show zero misclassification, with all samples correctly classified into their respective classes. This confirms the absence of false positives and false negatives. 
 
-
 Confusion Matrix for Logistic Regression:
+
 <img src = "Confusion Matrix for Logistic Regression.png" width = "500">
 
-
 Confusion Matrix for Decision Tree Classifier:
+
 <img src = "Confusion Matrix for Decision Tree Classifier.png" width = "500">
 
-
 Confusion Matrix for Random Forest Classifier:
+
 <img src = "Confusion Matrix for Random Forest Classifier.png" width = "500">
 
 ROC curves for all models closely follow the top left corner, with an AUC score of 1.00. This demonstrates perfect stability between the human-written and AI-generated text. 
 
-
 ROC-AUC Curve for Logistic Regression:
+
 <img src = "ROC-AUC Curve for Logistic Regression.png" width = "500">
 
-
 ROC-AUC Curve for Decision Tree Classifier:
+
 <img src = "ROC-AUC Curve for Decision Tree Classifier.png" width = "500">
 
-
 ROC-AUC Curve for Random Forest Classifier:
+
 <img src = "ROC-AUC Curve for Random Forest Classifier.png" width = "500">
 
 The consistently perfect results across confusion matrices, classification reports, and ROC-AUC scores indicate that all three models perform exceptionally well on the given dataset. 
