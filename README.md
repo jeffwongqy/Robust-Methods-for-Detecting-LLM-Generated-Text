@@ -58,22 +58,46 @@ Each model generates class predictions and class probabilities on the test set. 
 
 Precision, recall, F1-score, and accuracy are computed for both classes. All models achieve perfect scores (1.00) across all metrics, indicating flawless classification performance on the test data. 
 
+Classification Report for Logistic Regression:
+<img src = "logreg_classification_report.png" width = "500">
+
+Classification Report for Decision Tree Classifier: 
+<img src = "dtc_classification_report.png" width = "500">
+
+Classification Report for Random Forest Classifier
+<img src = "rfc_classification_report.png" width = "500">
+
 Confusion matrices show zero misclassification, with all samples correctly classified into their respective classes. This confirms the absence of false positives and false negatives. 
 
+Confusion Matrix for Logistic Regression:
 <img src = "Confusion Matrix for Logistic Regression.png" width = "500">
 
+Confusion Matrix for Decision Tree Classifier:
 <img src = "Confusion Matrix for Decision Tree Classifier.png" width = "500">
 
+Confusion Matrix for Random Forest Classifier:
 <img src = "Confusion Matrix for Random Forest Classifier.png" width = "500">
 
 ROC curves for all models closely follow the top left corner, with an AUC score of 1.00. This demonstrates perfect stability between the human-written and AI-generated text. 
 
+ROC-AUC Curve for Logistic Regression:
 <img src = "ROC-AUC Curve for Logistic Regression.png" width = "500">
 
+ROC-AUC Curve for Decision Tree Classifier:
 <img src = "ROC-AUC Curve for Decision Tree Classifier.png" width = "500">
 
+ROC-AUC Curve for Random Forest Classifier:
 <img src = "ROC-AUC Curve for Random Forest Classifier.png" width = "500">
 
 The consistently perfect results across confusion matrices, classification reports, and ROC-AUC scores indicate that all three models perform exceptionally well on the given dataset. 
 
+## Tools
+- Python 
+- Jenkins
+- Git /GitHub
+- Docker 
+
 ## References
+Mo, Y., Qin, H., Dong, Y., Zhu, Z., & Li, Z. (2024, April 6). Large Language Model (LLM) AI text generation detection based on transformer deep learning algorithm. arXiv.org. https://arxiv.org/abs/2405.06652
+
+
