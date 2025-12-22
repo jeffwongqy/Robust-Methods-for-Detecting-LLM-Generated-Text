@@ -3,7 +3,7 @@
 ## Aim: 
 To develop a robust system for acurrately detecting LLM-generated text by applying reliable machine learning techniques and maintaining a reproducible, automated development workflow usign Git and Jenkins. 
 
-<img src = "jenkins_pipeline.png" width = "500">
+<img src = "jenkins_pipeline.png" width = "700">
 
 ## Objectives:
 - Design and implement models capable of distinguishing human-written and LLM-generated text with high accuracy. 
